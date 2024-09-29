@@ -1,5 +1,7 @@
 *.log
 temp/
-workspace.xml
+/workspace.xml
 tasks.xml
 .iws
+/httpRequests/
+/shelf/

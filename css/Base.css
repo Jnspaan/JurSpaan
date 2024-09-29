@@ -1,56 +1,65 @@
-* {
+*{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
+body {
+    /*background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url("../octo.jpg");*/
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+}
 .banner {
     width: 100%;
-    height: 100vh;
-    /*background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url("../octo.jpg");*/
-    background-size: cover;
-    background-color: orange;
-    background-position: center;
+    height: 100%;
 }
 .navBar {
     background-color: green;
     color: black;
-    width: 80%;
-    margin: auto;
-    padding: 20px 0;
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-radius: 25px;
 }
-.name{
+.name {
+    background-color: green;
     margin: 0 20px;
 }
-.navBar ul {
+.pages {
     background-color: aqua;
     margin: 0 10px;
     padding: 0;
     border-radius: 15px;
     border: 2px;
 }
-.navBar ul li {
+.pages li {
     list-style: none;
     display: inline-block;
     padding: 10px;
     background: linear-gradient(to left, aqua 50%, black 50%) right;
     background-size: 200% 100%;
-    position: relative;
     border-left: 3px solid black;
     border-radius: 15px;
     transition: 0.5s;
 }
-.navBar ul li:hover{
+.pages li:hover {
     background-position: left;
 }
-.navBar ul li a{
+.pages li a {
     text-decoration: none;
     color: black;
     text-transform: uppercase;
+    /*background: linear-gradient(to right, aqua 50%, black 50%) left;*/
+    /*background-size: 200% 100%;*/
+    /*transition: 0.5s;*/
+    /*border-radius: 10px;*/
+    /*border: 0;*/
 }
-.navBar ul li a:hover{
+.pages li a:hover {
     color: aqua;
+    /*background-color: black;*/
+    /*background-position: right;*/
 }
