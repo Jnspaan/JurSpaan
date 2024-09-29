@@ -6,5 +6,5 @@ tasks.xml
 /httpRequests/
 /shelf/
 modules.xml
-#vcs.xml
+vcs.xml
 .idea/
